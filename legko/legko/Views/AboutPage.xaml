@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="legko.Views.AboutPage">
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="Center" Margin="10">
+            <Label x:Name="titleLabel" FontSize="26" HorizontalTextAlignment="Center"/>
+            <Image x:Name="tachkiImage"></Image>
+            <Label x:Name="descriptionLabel"></Label>
+            <Button x:Name="wikiButton" Clicked="wikiButton_Clicked" Text="Подробнее"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
